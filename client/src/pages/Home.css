@@ -1,0 +1,110 @@
+.full-img,
+.full-text {
+  display: block;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: whitesmoke;
+}
+.gif-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.gif-img {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#refer {
+  color: #d1cdc7;
+  text-decoration: none;
+}
+.header-text-home {
+  text-align: center;
+  color: rgb(139, 151, 219);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.home-link {
+  color: rgb(145, 192, 242);
+}
+.home-link-2 {
+  color: rgb(145, 192, 242);
+  font-size: smaller;
+  text-decoration: none;
+}
+
+.header {
+  margin-top: 2.5em;
+  padding: 0;
+}
+.wrap-img1 {
+  width: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
+  float: left;
+}
+.menu-img {
+  width: 100%;
+}
+
+.wrap-img2 {
+  margin-left: 8%;
+  margin-right: 8%;
+  width: 30%;
+}
+.clear {
+  clear: both;
+}
+.home {
+  margin-top: 5em;
+  text-align: center;
+}
+
+.block {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 2400px) {
+  .full-text {
+    font-size: 16px;
+  }
+  .header-text-home {
+    font-size: 26px;
+  }
+  .gif-text {
+    font-size: 24px;
+  }
+  .gif-text-h5 {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .full-text {
+    font-size: 15px;
+  }
+  .header-text-home {
+    font-size: 22px;
+  }
+  .gif-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .full-text {
+    font-size: 13px;
+  }
+  .full-img {
+    width: 95%;
+  }
+  .header-text-home {
+    font-size: 21px;
+  }
+  .gif-text {
+    font-size: 19px;
+  }
+}

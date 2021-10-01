@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background: rgb(113, 154, 216);
+  color: white;
+  font-family: Helvetica;
+  font-weight: 300;
+}
+.menu-item {
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+}
+
+.menu-item:hover {
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(79, 29, 85);
+}
+
+.navbar__title {
+  margin-right: auto;
+  font-size: 150%;
+  padding: 12px 16px;
+}
+
+.navbar__item {
+  padding: 16px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+}
